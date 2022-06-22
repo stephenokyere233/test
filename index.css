@@ -175,5 +175,15 @@ transition: 0.5s;
           #l4{
             display: flex;
           }  
+                  .small button {
+                      margin-top: 170px;
+                      padding: 5px 10px;
+                      border: none;
+                      border-radius: 5px;
+                      font-weight: bold;
+                      font-size: 17px;
+                      transition: 0.5s;
+                  }
+        
 }
  
