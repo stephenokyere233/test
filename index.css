@@ -133,7 +133,7 @@ transition: 0.5s;
 
     #container {
         width: 90%;
-        overflow-y: scroll;
+        overflow-y:hidden;
         margin: 0%;
 
     }
@@ -159,6 +159,9 @@ transition: 0.5s;
     }   
     article{
         margin: 0%;
+    }
+    nav li{
+        padding: 0px;
     }
        
 }
