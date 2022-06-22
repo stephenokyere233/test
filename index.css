@@ -92,11 +92,16 @@ nav li a:hover {
    padding-bottom: 40px;
     
 }
+#g p{
+    text-align: left;
+    font-weight: bolder;
+    font-size: 22px;
+}
 #line2{
     margin-right: 150px;
 }
 .small button{
-    margin-top: 190px;
+    margin-top: 140px;
     padding: 5px 10px;
     border: none;
         border-radius: 5px;
@@ -105,7 +110,7 @@ nav li a:hover {
     transition: 0.5s;
 }
 .big button {
-margin-top: 70px;
+margin-top: 20px;
 padding: 5px 10px;
 border: none;
 border-radius: 5px;
