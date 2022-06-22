@@ -138,6 +138,12 @@ transition: 0.5s;
     }
     header{
         display: block;
+        
+             
+                padding: 0px;
+                margin: 0%;
+        
+            }
     }
     
     nav ul{
