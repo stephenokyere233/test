@@ -124,7 +124,7 @@ transition: 0.5s;
 
 @media(max-width:600px),screen and (orientation:portrait) {
     body {
-        width: 100%;
+        width: 80%;
         overflow: hidden;
         overflow-y: scroll;
 
