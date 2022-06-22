@@ -135,7 +135,7 @@ transition: 0.5s;
     }
 }
 
-@media(min-width:360px) and (orientation:portrait) {
+@media(min-width:480px) and (orientation:portrait) {
     body {
         width: 100%;
         overflow: hidden;
