@@ -124,18 +124,18 @@ transition: 0.5s;
 
 @media(max-width:600px),screen and (orientation:portrait) {
     body {
-        width: 90%;
+        width: 100%;
         overflow: hidden;
         overflow-y: scroll;
         margin: auto;
-        height: min-content;
+        height: 500px;
 
     }
 
     #container {
-        width: 90%;
+        width: 95%;
         overflow-y:hidden;
-        margin: 0%;
+        margin:auto;
 
     }
     header{
