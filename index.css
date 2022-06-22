@@ -1,0 +1,132 @@
+body {
+    background-color: aqua;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#container {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+article {
+    margin: 0 100px;
+}
+
+article h1 {
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+header {
+    display: flex;
+    padding: 5px;
+    padding-top: 10px;
+
+}
+
+header img {
+    width: 30px;
+    height: 20px;
+    margin: 5px;
+}
+
+#logo {
+    margin-left: 100px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 5px 50px;
+
+}
+
+nav li {
+    padding: 0 10px;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgba(26, 26, 31, 0.301);
+    text-transform: capitalize;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+nav li a:hover {
+    color: black;
+}
+
+#user {
+    margin-left: 90px;
+}
+
+.big,.small{
+    border: 1px solid;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    background-image: url(back.jpg);
+}
+
+.big{
+    height: 150px;
+}
+.small{
+    height: 250px;
+}
+.g{
+    display: flex;
+}
+#g{
+    display: flex;
+    width: 100%;
+    margin-left: 80px;
+   padding-bottom: 40px;
+    
+}
+#line2{
+    margin-right: 150px;
+}
+.small button{
+    margin-top: 190px;
+    padding: 5px 10px;
+    border: none;
+        border-radius: 5px;
+        font-weight: bold;
+            font-size: 17px;
+            transition: 0.5s;
+}
+.big button {
+margin-top: 70px;
+padding: 5px 10px;
+border: none;
+border-radius: 5px;
+font-weight: bold;
+font-size: 17px;
+transition: 0.5s;
+}
+.big button:hover{
+  transform: scale(1.1);
+}
+.small button:hover {
+    transform: scale(1.1);
+}
+
+@media(max-width:600px){
+body{
+    width: max-content;
+}
+#container{
+    width: 80%;
+    
+}
+}
