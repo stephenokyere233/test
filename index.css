@@ -132,8 +132,14 @@ transition: 0.5s;
     }
 
     #container {
-        width: 80%;
+        width: 90%;
         overflow-y: scroll;
 
     }
+    nav ul{
+        display: block;
+    }
+        nav li a:hover {
+           background-color:rgb(141, 137, 137) ; 
+        }
 }
