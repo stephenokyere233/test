@@ -101,10 +101,10 @@ nav li a:hover {
     margin-right: 150px;
 }
 .small button{
-    margin-top: 140px;
+    margin-top: 150px;
     padding: 5px 10px;
     border: none;
-        border-radius: 5px;
+    border-radius: 5px;
     font-weight: bold;
     font-size: 17px;
     transition: 0.5s;
