@@ -138,8 +138,7 @@ transition: 0.5s;
 
     }
     header{
-        display: block;
-        
+        display: block; 
         padding: 0px;
         margin: 0%;
         
@@ -148,6 +147,7 @@ transition: 0.5s;
     
     nav ul{
         display: block;
+        margin: 5px 0px;
     }
         nav li a:hover {
            background-color:rgb(141, 137, 137) ; 
@@ -155,9 +155,11 @@ transition: 0.5s;
     #logo{
         width: 100%;
         height: 30px;
+        margin: 5px 0;
     }   
     article{
         margin: 0%;
     }
+       
 }
  
