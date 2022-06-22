@@ -184,6 +184,12 @@ transition: 0.5s;
                       font-size: 17px;
                       transition: 0.5s;
                   }
-        
+        .big {
+            height: 120px;
+        }
+    
+        .small {
+            height: 200px;
+        }
 }
  
