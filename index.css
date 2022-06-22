@@ -128,7 +128,7 @@ transition: 0.5s;
         overflow: hidden;
         overflow-y: scroll;
         margin: auto;
-        height: 500px;
+        height: min-content;
 
     }
 
@@ -174,7 +174,7 @@ transition: 0.5s;
           #g .g{
             display: flex;
           }    
-          #l4 .g .small{
+          #l4 .g{
             display: grid;
             grid-template-columns: auto auto auto auto;
           
