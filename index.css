@@ -133,13 +133,22 @@ transition: 0.5s;
 
     #container {
         width: 90%;
-        
+        overflow-y: scroll;
 
     }
+    header{
+        display: block;
+    }
+    
     nav ul{
         display: block;
     }
         nav li a:hover {
            background-color:rgb(141, 137, 137) ; 
         }
+#logo{
+    width: 100px;
+    height: 30px;
+
+}
 }
