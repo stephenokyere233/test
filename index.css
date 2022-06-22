@@ -176,8 +176,8 @@ transition: 0.5s;
           }    
           #l4{
             display: grid;
-            grid-template-columns: auto;
-            grid-template: 25%;
+            grid-template-columns: auto auto auto auto;
+          
           }  
                   .small button {
                       margin-top: 120px;
