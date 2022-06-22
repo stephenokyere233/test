@@ -126,6 +126,7 @@ transition: 0.5s;
     body {
         width: 100%;
         overflow: hidden;
+        overflow-y: scroll;
         margin: auto;
         height: 500px;
 
