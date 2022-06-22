@@ -139,12 +139,11 @@ transition: 0.5s;
     header{
         display: block;
         
-             
-                padding: 0px;
-                margin: 0%;
+        padding: 0px;
+        margin: 0;
         
             }
-    }
+    
     
     nav ul{
         display: block;
@@ -152,9 +151,9 @@ transition: 0.5s;
         nav li a:hover {
            background-color:rgb(141, 137, 137) ; 
         }
-#logo{
-    width: 100px;
-    height: 30px;
-
+    #logo{
+        width: 100px;
+        height: 30px;
+    }   
 }
-}
+ 
