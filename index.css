@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    background-color:black;
     width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -121,12 +121,30 @@ transition: 0.5s;
     transform: scale(1.1);
 }
 
-@media(max-width:600px){
-body{
-    width: max-content;
+@media(max-width:767px) {
+    body {
+        width: 100%;
+        overflow: hidden;
+        overflow-y: scroll;
+
+    }
+
+    #container {
+        width: 80%;
+
+    }
 }
-#container{
-    width: 80%;
-    
-}
+
+@media(min-width:360px) and (orientation:portrait) {
+    body {
+        width: 100%;
+        overflow: hidden;
+        overflow-y: scroll;
+
+    }
+
+    #container {
+        width: 80%;
+
+    }
 }
