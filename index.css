@@ -101,9 +101,9 @@ nav li a:hover {
     padding: 5px 10px;
     border: none;
         border-radius: 5px;
-        font-weight: bold;
-            font-size: 17px;
-            transition: 0.5s;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.5s;
 }
 .big button {
 margin-top: 70px;
@@ -163,6 +163,13 @@ transition: 0.5s;
     nav li{
         padding: 0px;
     }
+        #g {
+          
+           
+            margin-left: 10px;
+            padding-bottom: 40px;
+    
+        }
        
 }
  
