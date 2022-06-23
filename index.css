@@ -263,3 +263,8 @@ article p{
         height: 200px;
     }
 }
+
+button a {
+    text-decoration: none;
+    color: black;
+}
