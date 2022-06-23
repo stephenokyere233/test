@@ -171,21 +171,11 @@ nav{
        
     }
     #user{
-        
-margin: 10px;
-        
-/* border: 1px solid; */
-        
-/* padding: 5px; */
-        
-/* float: right; */
-        
-/* margin-left: 120px; */
+        margin: 10px;
     }
-article p{
-    
-font-size: 15px;
-}
+article p{   
+    font-size: 15px;
+    }
     header {
         display: block;
         padding: 0px;
@@ -235,12 +225,13 @@ font-size: 15px;
         padding-bottom: 30px;
         display: block;
         width: 85%;
+        /* overflow: revert; */
     }
 
     #g .g {
         display: flex;
         flex-direction: row;
-        width: 410px;
+        width: 380px;
         flex-wrap: nowrap;
     }
 
