@@ -205,6 +205,9 @@ screen and (orientation:portrait) {
         margin-top: 120px;
 
     }
+    #g .big ,#g .small{
+        width: 100%;
+    }
 
     .big button {
         margin-top: 40px;
