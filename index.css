@@ -153,7 +153,7 @@ nav li a:hover {
         
     }
         #maincontainer {
-          
+          text-transform: capitalize;
             width: 100%;
         
         }
