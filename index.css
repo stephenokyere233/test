@@ -162,6 +162,7 @@ nav{
 }
 #g{
      text-transform: capitalize;
+     width: 50%;
 }
     #container {
         width: 100%;
@@ -230,14 +231,17 @@ font-size: 15px;
     }
 
     #g {
-        margin: auto;
-        padding-bottom: 40px;
+        margin: 0;
+        padding-bottom: 30px;
         display: block;
-        width: 100%;
+        width: 85%;
     }
 
     #g .g {
         display: flex;
+        flex-direction: row;
+        width: 410px;
+        flex-wrap: nowrap;
     }
 
     #l4 .g {
