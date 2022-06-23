@@ -224,14 +224,14 @@ article p{
         margin: 0;
         padding-bottom: 30px;
         display: block;
-        width: 85%;
+        width: 80%;
         /* overflow: revert; */
     }
 
     #g .g {
         display: flex;
         flex-direction: row;
-        width: 380px;
+        width: 370px;
         flex-wrap: nowrap;
     }
 
