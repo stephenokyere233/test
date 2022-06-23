@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Document_files/index.css">
+    <title>Document</title>
+  <style>
+.big {
+    width: 400px;
+
+}
+
+.small {
+  width: 170px;
+}
+  </style></head>
+  
+  <body>
+    <section id="container">
+      <header>
+        <img id="logo" src="./Document_files/logo.jpg" alt="logo">
+        <nav>
+          <ul>
+            <li><a href="http://127.0.0.1:5500/index.html">home</a></li>
+            <li><a href="http://127.0.0.1:5500/sports.html">sports</a></li>
+            <li><a href="http://127.0.0.1:5500/opinion.html">opinion</a></li>
+            <li><a href="http://127.0.0.1:5500/lifestyle.html">lifestyle</a></li>
+            <li><a href="http://127.0.0.1:5500/business.html">business</a></li>
+            <li><a href="http://127.0.0.1:5500/culture.html">culture</a></li>
+            <li><a href="http://127.0.0.1:5500/fashion.html">Fashion</a></li>
+            <li><a href="http://127.0.0.1:5500/tech.html">tech</a></li>
+          </ul>
+        </nav>
+        <a href="http://127.0.0.1:5500/index.html" id="user"><img src="./Document_files/user.png" alt="user"></a>
+      </header>
+      <hr color="ghostwhite">
+
+      <article>
+        <h1>Welcome To Our Blog</h1>
+        <p>
+          the latest and the best articles selected by our editorial
+          office on every aspect.
+        </p>
+      </article>
+      <section id="g">
+        <span id="line1">
+          <div class="big" style="background-image:url(business.jpg) ;background-size: cover;">
+            <p>business</p>
+            <button>Read for free </button>
+          </div>
+         
+          <div class="g">
+            <div class="small" style="background-image:url(opinion.jpg) ;background-size: cover;">
+              <p style="color: white;">opinion<button>Read for free</button></p>
+            </div>
+            <div class="small" style="background-image:url(sports.jpg) ;background-size: cover;">
+              <p style="color: white;">sports<button>Read for free</button></p>
+            </div>
+          </div>
+        </span>
+        <span id="line2">
+          <div class="g">
+            <div class="small" style="background-image:url(fashion.jpg) ;background-size: cover;">
+              <p style="color: white;">fashion &amp; <br> lifestyle<button>Read for free</button></p>
+            </div>
+            <div class="small" style="background-image:url(culture.jpg) ;background-size: cover;">
+              <p style="color: white;">culture <button style="margin-top:170px ;">Read for free</button></p>
+            </div>
+          </div>
+         
+          <div class="big" style="background-image:url(tech.jpg) ;background-size: cover;">
+            <p style="color: white;">Tech</p>
+            <button>Read for free</button>
+          </div>
+        </span>
+      </section>
+    </section>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+<daily-companion-app></daily-companion-app></body></html>
