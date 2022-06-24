@@ -165,12 +165,11 @@ nav{
 #showcase{
      text-transform: capitalize;
      width: 50%;
-    margin: 0;
-    padding-bottom: 30px;
-    display: block;
-    width: 80%;
-    /* overflow: revert; */
-
+     margin: 7px;
+     padding-bottom: 30px;
+     display: block;
+     width: 80%;
+     /* overflow: revert; */
 }
     #container {
         width: 100%;
