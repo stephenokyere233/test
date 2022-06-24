@@ -171,10 +171,12 @@ nav{
 }
 
 #showcase p{
-    font-size: 17px;
+    
+font-size: 17px;
 }
 #showcase button{
-    font-size: 15px;
+    
+font-size: 15px;
 }
 
 
@@ -185,7 +187,7 @@ nav{
         margin: 0px;
     }
     #user{
-        margin: 10px;
+        margin: 0px 10px;
     }
 article p{   
     font-size: 15px;
@@ -194,7 +196,6 @@ article p{
         display: block;
         padding: 0px;
         margin: 0%;
-
     }
 
 
@@ -207,8 +208,8 @@ article p{
         justify-content: flex-start;
         align-items: baseline;
         padding: 0px;
-        background-color: gray;
         margin-top: 0px;
+        background-color: black;
     }
 
     nav li a:hover {
@@ -231,7 +232,7 @@ article p{
         padding: 0px;
         margin-block: auto;
         margin: 10px;
-        color: black;
+        color: white;
     }
 
     
@@ -276,4 +277,7 @@ width: 100%;
 button a {
     text-decoration: none;
     color: black;
+}
+nav li a{
+    color: white;
 }
