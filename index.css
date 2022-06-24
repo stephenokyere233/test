@@ -7,7 +7,6 @@ body {
 }
 
 #container {
-   
         width: 100%;
       
 }
@@ -89,19 +88,21 @@ nav li a:hover {
 
 .big {
     height: 150px;
-
+width: 400px;
 }
 
 .small {
     height: 250px;
+    width: 170px;
 }
 
-.g {
+
+.smallsection {
     display: flex;
 
 }
 
-#g {
+#showcase {
     display: flex;
     width: 100%;
     margin-left: 80px;
@@ -109,19 +110,19 @@ nav li a:hover {
 
 }
 
-#g p {
+#showcase p {
     text-align: left;
     font-weight: bolder;
     font-size: 22px;
     color: azure;
 }
 
-#line2 {
+#secondbox {
     margin-right: 150px;
 }
 
 
-#g button {
+#showcase button {
     padding: 5px 10px;
     border: none;
     border-radius: 5px;
@@ -135,7 +136,7 @@ nav li a:hover {
 }
 
 
-#g button:hover {
+#showcase button:hover {
     transform: scale(1.1);
 }
 
@@ -161,9 +162,15 @@ nav li a:hover {
 nav{
     margin: 0px;
 }
-#g{
+#showcase{
      text-transform: capitalize;
      width: 50%;
+    margin: 0;
+    padding-bottom: 30px;
+    display: block;
+    width: 80%;
+    /* overflow: revert; */
+
 }
     #container {
         width: 100%;
@@ -221,32 +228,21 @@ article p{
         color: black;
     }
 
-    #g {
-        margin: 0;
-        padding-bottom: 30px;
-        display: block;
-        width: 80%;
-        /* overflow: revert; */
-    }
+    
 
-    #g .g {
+    #showcase .smallsection {
         display: flex;
         flex-direction: row;
         width: 370px;
         flex-wrap: nowrap;
     }
 
-    #l4 .g {
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-
-    }
 
     .small button {
         margin-top: 120px;
 
     }
-    #g .big ,#g .small{
+    #showcase .big ,#showcase .small{
         width: 100%;
     }
 
