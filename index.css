@@ -145,7 +145,7 @@ width: 400px;
  
 
 
-@media only screen and (min-width :100px) and (max-width:600px)  {
+@media only screen and (min-width :100px) and (max-width:700px)  {
     body {
         width: 100%;
         overflow: hidden;
@@ -212,8 +212,8 @@ article p{
         background-color: black;
     }
 
-    nav li a:hover {
-        background-color: rgb(141, 137, 137);
+    nav li a{
+    color: whitesmoke;
     }
 
     #logo {
@@ -232,7 +232,6 @@ article p{
         padding: 0px;
         margin-block: auto;
         margin: 10px;
-        color: white;
     }
 
     
@@ -278,6 +277,4 @@ button a {
     text-decoration: none;
     color: black;
 }
-nav li a{
-    color: white;
-}
+
