@@ -44,9 +44,9 @@ article{
         overflow-wrap: break-word;
         margin: auto;
     }
-    #maincontainer{   
+    #maincontainer{
         font-size: 16px;
-        padding: 0px;
+        padding-bottom: 30px;
     }
      
 }
