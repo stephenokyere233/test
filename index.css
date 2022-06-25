@@ -4,55 +4,44 @@
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       overflow-x: hidden;
   }
-
   #container {
-      /* width: 100%; */
+      width: 100%;
+      overflow-wrap: break-word;
+      margin: 0px 50px;
   }
-
   #maincontainer {
       background-color: white;
-      width: 80%;
+      width: max-content;
       margin: auto;
       border-radius: 10px;
       text-transform: capitalize;
   }
-
-  article {
-      margin: 0 100px;
-  }
-
   article h1 {
       font-weight: bold;
       font-size: 30px;
   }
-
   header {
       display: flex;
       padding: 5px;
       padding-top: 10px;
   }
-
   header img {
       width: 30px;
       height: 20px;
       margin: 5px;
   }
-
   #logo {
       margin-left: 10px;
       margin-right: 50px;
   }
-
   nav ul {
       display: flex;
       list-style: none;
       margin: 5px 50px;
   }
-
   nav li {
       padding: 0 10px;
   }
-
   nav li a {
       text-decoration: none;
       color: rgba(26, 26, 31, 0.301);
@@ -60,11 +49,9 @@
       font-weight: bold;
       transition: 0.5s;
   }
-
   #user {
-      margin-left: 90px;
+      margin-left: 80px;
   }
-
   .big,
   .small {
       margin: 10px;
@@ -72,39 +59,32 @@
       padding: 20px;
       position: relative;
   }
-
   .big {
       height: 150px;
       width: 400px;
   }
-
   .small {
       height: 250px;
       width: 170px;
   }
-
   .smallsection {
       display: flex;
   }
-
   #showcase {
       display: flex;
-      width: 100%;
-      margin-left: 80px;
+      width: 920px;
+      /* margin-left: 80px; */
       padding-bottom: 40px;
   }
-
   #showcase p {
       text-align: left;
       font-weight: bolder;
       font-size: 22px;
       color: azure;
   }
-
   #secondbox {
       margin-right: 150px;
   }
-
   #showcase button {
       padding: 5px 10px;
       border: none;
@@ -115,18 +95,16 @@
       position: absolute;
       right: 0;
       bottom: 0;
-      margin: 20px;
+      margin: 10px;
   }
-
   #showcase button:hover {
       transform: scale(1.1);
   }
-
-
 button a {
     text-decoration: none;
     color: black;
 }
+
 @media only screen and (min-width :100px) and (max-width:900px) and (-webkit-min-device-pixel-ratio: 2) {
 body {
     width: 100%;
@@ -154,8 +132,8 @@ nav{
 #showcase p{  
     font-size: 17px;
 }
-#showcase button{   
-    font-size: 15px;
+#showcase button{
+    font-size: 12px;
 }
 #container {
     width: 100%;
@@ -233,6 +211,7 @@ nav li {
     height: 200px;
 }
 }
+
 @media only screen and (max-width:1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
 body {
         width: 100%;
@@ -241,16 +220,13 @@ body {
         margin: auto;
         background-color: white;
     }
-
    #maincontainer {
        text-transform: capitalize;
        width: 100%;
    }
-
     nav {
         margin: 0px;
     }
-
     #showcase {
         text-transform: capitalize;
         width: 50%;
@@ -260,7 +236,6 @@ body {
         width: 80%;
         overflow: visible;
     }
-
     #showcase p {
         font-size: 17px;
     }
