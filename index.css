@@ -139,7 +139,7 @@ nav{
     width: 100%;
     overflow-wrap: break-word;
     overflow: hidden;
-    margin: 0px;
+    margin: 0px 5px;
 }
 #user{
     margin: 0px 10px;
@@ -187,16 +187,16 @@ nav li {
     flex-direction: row;
     flex-wrap: nowrap;
     width: 120%;
-    justify-content: space-evenly;
     align-items: flex-start;
+    margin-left: auto;
+    justify-content: space-evenly;
 }
 .small button {
     margin-top: 120px;
 }
 #showcase .big {
-    /* max-width: 100%; */
+    /* max-width: 1200px; */
     width: 100%;
-    /* margin: auto; */
 }
 #showcase .small{
     width: 100%;
