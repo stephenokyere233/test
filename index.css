@@ -147,6 +147,11 @@ nav{
     overflow-wrap: break-word;
     overflow: hidden;
     margin: 0px;
+    background-image: radial-gradient(circle farthest-corner at 6.6% 12%, rgba(40,53,50,1) 5%, rgba(40,53,50,1) 19%, rgba(80,140,120,1) 53%, rgba(50,60,58,1) 100%);
+    background-size: auto;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    background-color: rgba(0,0,0,0);
 }
 #user{
     margin: 0px 10px;
