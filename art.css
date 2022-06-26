@@ -50,7 +50,7 @@ article{
         overflow-y: scroll;
         overflow-wrap: break-word;
         margin: auto;
-        font-family: cursive;
+        font-family: -webkit-body;
         background: black;
     }
     #maincontainer{
