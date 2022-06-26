@@ -2,7 +2,7 @@
       width: 100%;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       overflow-x: hidden;
-      background-image: linear-gradient(72deg, rgba(44,222,242,1) 0%, rgba(156,43,171,1) 58%, rgba(39,43,44,1) 100%);
+      background-image: radial-gradient(circle farthest-corner at 6.6% 12%, rgba(40,53,50,1) 5%, rgba(40,53,50,1) 19%, rgba(80,140,120,1) 53%, rgba(50,60,58,1) 100%);
       background-size: auto;
       background-position: 0% 0%;
       background-repeat: repeat;
@@ -173,7 +173,6 @@ header {
     display: block;
     padding: 0px;
     margin: 0%;
-    background-size: auto;
 }
 nav ul {
     display: flex;
@@ -193,7 +192,6 @@ nav li a{
 #logo {
     width: 30px;
     height: 20px;
-    margin: 0px 20px;
     padding: 0px;
 }
 article {
@@ -220,7 +218,7 @@ nav li {
 #showcase .big {
     /* max-width: 1200px; */
     width: 100%;
-    border: 3px solid white;
+    border: 2px solid white;
 }
 #showcase .small{
     width: 100%;
@@ -233,7 +231,7 @@ nav li {
 }
 .small {
     height: 200px;
-    border: 3px solid white;
+    border: 2px solid white;
 }
 }
 

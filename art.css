@@ -5,7 +5,7 @@ body{
     margin:
     auto;
     overflow-wrap: break-word;
-    background-image: linear-gradient(72deg, rgba(44,202,242,1) 0%, rgba(209,66,204,1) 44%, rgba(88,182,206,1) 100%);
+    background-image: radial-gradient(circle farthest-corner at 6.6% 12%, rgba(40,53,50,1) 5%, rgba(40,53,50,1) 19%, rgba(80,140,120,1) 53%, rgba(50,60,58,1) 100%);
     background-size: auto;
     background-position: 0% 0%;
     background-repeat: repeat;
@@ -18,9 +18,9 @@ b{
     width: 95%;
     background-color: white;
     border-radius: 20px;
-    margin: auto;
     font-size: 17px;
     padding-bottom: 30px;
+    margin: 30px auto;
 }
 header{
     padding-top: 10px;
@@ -30,6 +30,7 @@ header{
 nav ul{
     display: flex;
     list-style: none;
+    margin: 10px;
 }
 article{
     padding: 0px 30px;
@@ -46,6 +47,10 @@ article{
        margin: 0px 10px;
        padding: 0px;
    }
+   nav img{
+    width: 30px;
+    height: 20px;
+   }
 
 @media only screen and (min-width :100px) and (max-width:900px) and (-webkit-min-device-pixel-ratio: 2) {
     body {
@@ -61,8 +66,7 @@ article{
         background-color: rgba(0,0,0,0);
     }
     header{
-        
-color: black;
+        color: black;
     }
     article h1,h2,h3{
         
@@ -75,11 +79,13 @@ color: black;
         overflow-wrap: break-word;
         overflow-x: hidden;
         background-size: auto;
-        width: 100%;
-        color: white;
-        background-color: revert;
-        border-radius: revert;
     }
+
+nav li a {
+    text-decoration: none;
+    font-size: small;
+    color: black;
+}
     article{
         margin: 0px;
         font-size: 15px;
