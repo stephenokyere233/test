@@ -50,7 +50,6 @@ article{
         overflow-y: scroll;
         overflow-wrap: break-word;
         margin: auto;
-        font-family: -webkit-body;
         background: black;
     }
     #maincontainer{
@@ -65,6 +64,9 @@ article{
         font-size: 15px;
         padding: 0px 12px;
     }
+
+ul {
+}
     article h2{     
         font-size: 17px;
     }
